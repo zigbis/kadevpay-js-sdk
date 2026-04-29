@@ -24,7 +24,7 @@
 Vous n'avez pas besoin d'installer de lourdes librairies. Ajoutez simplement notre script sécurisé sur votre page HTML ou dans votre application React/Vite.
 
 ```html
-<script src="[https://pay.kadev.ci/js/v1/kadev-pay.js](https://pay.kadev.ci/js/v1/kadev-pay.js)"></script>
+<script src="https://pay.kadev.ci/js/v1/kadev-pay.js"></script>
 ```
 
 ### Lancer un paiement avec le SDK
@@ -42,7 +42,7 @@ function payerAvecKadev() {
         method: "momo",                        // "momo" (Mobile Money) ou "card" (Carte)
         
         // URL de redirection après succès
-        callback_url: "[https://votre-site.com/commande-reussie](https://votre-site.com/commande-reussie)",
+        callback_url: "https://votre-site.com/commande-reussie",
         
         // Données supplémentaires récupérables via Webhook
         metadata: {
